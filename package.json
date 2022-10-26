@@ -1,6 +1,6 @@
 {
   "name": "pcf-react",
-  "version": "1.0.13",
+  "version": "2.0.0",
   "description": "Quicker and easier PCF React controls with support for MVVM & unit testing",
   "main": "lib/index.js",
   "scripts": {
@@ -13,19 +13,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/scottdurow/pcf-react.git"
+    "url": "https://github.com/RichardAnderson/inc-pcf-react"
   },
-  "author": "Scott Durow",
+  "author": "Richard Anderson",
   "license": "MIT",
   "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
     "ste-events": "^1.6.11",
-    "@types/react-dom": "^16.9.7",
+    "@types/react-dom": "16.8.2",
     "@types/xrm": "^9.0.15",
     "@types/powerapps-component-framework": "^1.2.0"
   },
   "devDependencies": {
+    "react": "16.8.4",
+    "react-dom": "16.8.2",
     "@types/jest": "^24.0.18",
     "@typescript-eslint/eslint-plugin": "^2.4.0",
     "@typescript-eslint/parser": "^2.4.0",
