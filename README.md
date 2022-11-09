@@ -1,5 +1,7 @@
-# PCF-REACT
-This library makes it easier to create a React based PCF control with support for the MVVM and ServiceProvider patterns.
+# INC-PCF-REACT
+This library makes it easier to create a React based PCF control with support for the MVVM and ServiceProvider patterns.  This version of the PCF-REACT project is a clone of Scott Durow's PCF-REACT project, and therefore all credits should be due there: https://github.com/scottdurow/pcf-react
+
+This version of that library updates (or in some instances, downgrades) the version of dependencies (including moving some to dev-dependencies) to align with the new in-preview feature of dataverse to share react platform libraries across PCF controls, therefore reducing the bundling size of the delivered control.  For more information, please see here: https://learn.microsoft.com/en-us/power-apps/developer/component-framework/react-controls-platform-libraries
 
 ## Why?
 When writing PCF controls, there is usually a great deal of boiler plate code for handling updates to properties and managing dataset paging. Furthermore, there are some oddities of the way in which PCF provides you with data and some differences between Canvas and Model Apps:
