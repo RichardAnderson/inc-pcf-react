@@ -5,6 +5,7 @@
 
 # generated directory
 **/generated
+.idea/
 
 # output directory
 /out
